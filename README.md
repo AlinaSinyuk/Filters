@@ -1,5 +1,7 @@
 Video Demo:
+
 Description:
+
 Let me introduce my final project for CS50.
 I created a special site where you can use different filters to make your picture more beautiful. The site was created with using JavaScript, CSS and HTML. Also I used the special element of HTML which named Canvas. This element is designed to create graphics with using JavaScript. For example, it is allow to draw graphs, create photo compositions, animations and even process video in real time.
 If you want to apply a filter for your foto, firstly you need to load your picture to the site. After that you can use 6 main filters: 
