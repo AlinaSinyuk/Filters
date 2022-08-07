@@ -11,6 +11,7 @@ If you want to apply a filter for your foto, firstly you need to load your pictu
 4. Brightness - will make your foto more bright.
 5. Rotate Left - allow to rotate your foto counterclockwise.
 6. Rotate Right - allow to rotate your foto clockwise.
+
 Only you need is to press buttons with name of filters at the top of the page. If you want to reset filter, please press button "Original". Picture with a filter you can save to your desktop by pressing right button of the mouse and choose "Save image as...".
 Enjoy your new great picture!
 
