@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sample</title>
+	<script src="scripts/libs/Canvas.js"></script>
+	<script src="scripts/libs/Dom.js"></script>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body class="table">
+	<div class="wrapper">
+		<header >
+
+			<div class="container-xl" >
+				<nav class="button navbar navbar-expand-lg navbar-light bg-light">
+					<label class="button" for="class button upload-img">Upload an image </label>
+					<input class="button" type="file" name="upload-img" id="upload-img" onchange="handleFiles(this.files)">
+				
+					<button class="filters-btn button" id="filter-original">Original</button>
+					<button class="filters-btn button" id="filter-grayscale">GrayScale</button>
+					<button class="filters-btn button" id="filter-sepia">Sepia</button>
+					<button class="filters-btn button" id="filter-blur">Blur</button>
+					<button class="filters-btn button" id="filter-brightness">Brightness</button>
+					<button class="filters-btn button" id="filter-rotate-left">Rotate Left</button>
+					<button class="filters-btn button" id="filter-rotate-right">Rotate Right</button>
+				</nav>
+			</div>
+		</header>
+			<hr>
+		<section>
+			<div class="container-xxl" align="center">
+				<div class="col-6">
+					<div class="row align-items-center" id="format1">
+						<img src="" alt="" id="inpt-img" style="display: none;">
+						<canvas id="out-can"></canvas>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer align="center">
+		<p>Make in 2022 by Syniuk Alina</p>
+	</footer>
+
+
+	
+	<script src="scripts/index.js"></script>
+</body>
+
+</html>
